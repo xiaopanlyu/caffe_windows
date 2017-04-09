@@ -1,0 +1,2 @@
+﻿  caffe.vcxproj -> E:\MyCode\DL\caffe-master\windows\..\Build\x64\Debug\caffe.exe
+  FixGFlagsNaming.cmd : "libgflags-debug.dll" already exists

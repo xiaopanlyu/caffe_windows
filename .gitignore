@@ -1,2 +1,12 @@
-libcaffe
-pycaffe
+libcaffe/cpu/
+libcaffe/cuda75/
+pycaffe/cpu/
+pycaffe/cuda75/
+source_code/Build/
+examples/usage/model/
+*.dll
+*.lib
+*.exe
+*.exp
+*.pdb
+*.metagen

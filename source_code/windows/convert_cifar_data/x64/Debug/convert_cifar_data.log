@@ -1,0 +1,35 @@
+﻿  convert_cifar_data.cpp
+LevelDb.lib(builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(builder.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(dbformat.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(dbformat.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(db_impl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(db_impl.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(db_iter.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(db_iter.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(filename.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(filename.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(log_reader.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(log_reader.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(log_writer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(log_writer.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(memtable.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(memtable.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(table_cache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(table_cache.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(version_edit.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(version_edit.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(version_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(version_set.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(write_batch.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(write_batch.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(port_win.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(port_win.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(block.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(block.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(block_builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(block_builder.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(format.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(iterator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(iterator.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(merger.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(merger.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(table.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(table.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(table_builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(table_builder.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(two_level_iterator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(two_level_iterator.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(arena.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(arena.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(cache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(cache.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(coding.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(coding.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(comparator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(comparator.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(crc32c.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(crc32c.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(env.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(env.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(env_boost.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(env_boost.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(hash.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(hash.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(logging.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(logging.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(options.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(options.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(status.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(status.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+LevelDb.lib(win_logger.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LevelDb.lib(win_logger.obj)' or at 'E:\MyCode\DL\caffe-master\Build\x64\Debug\vc120.pdb'; linking object as if no debug info
+  convert_cifar_data.vcxproj -> E:\MyCode\DL\caffe-master\windows\..\Build\x64\Debug\convert_cifar_data.exe

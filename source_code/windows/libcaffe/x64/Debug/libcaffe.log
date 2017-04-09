@@ -1,0 +1,7 @@
+﻿  ProtoCompile.cmd : Create proto temp directory "E:\MyCode\DL\caffe-master\windows\..\src\caffe\proto\temp"
+  ProtoCompile.cmd : Generating "E:\MyCode\DL\caffe-master\windows\..\src\caffe\proto\temp\caffe.pb.h" and "E:\MyCode\DL\caffe-master\windows\..\src\caffe\proto\temp\caffe.pb.cc"
+  ProtoCompile.cmd : Create proto include directory
+  A subdirectory or file E:\MyCode\DL\caffe-master\windows\..\include\caffe\proto already exists.
+  ProtoCompile.cmd : Compare newly compiled caffe.pb.h with existing one
+  libcaffe.vcxproj -> E:\MyCode\DL\caffe-master\windows\..\Build\x64\Debug\libcaffe.lib
+  BinplaceCudaDependencies : CPU only build, don't copy cuda dependencies.

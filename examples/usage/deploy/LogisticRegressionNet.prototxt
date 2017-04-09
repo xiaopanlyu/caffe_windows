@@ -1,0 +1,108 @@
+name: "LogReg"
+layer {
+  name: "mnist"
+  type: "Data"
+  top: "data"
+  top: "label"
+    include {
+    phase: TRAIN #说明该层只在TRAIN阶段使用
+  }
+ transform_param {
+   scale: 0.00390625 #数据归一化系数，1/256，归一到[0,1)
+ }
+  data_param {
+    source: "D:/DL/caffe-master/examples/deep_learning_localization/data/lmdb/train"
+    batch_size: 10
+	backend: LMDB
+  }
+}
+#==============定义TEST的数据层============================================
+layer { 
+  name: "mnist"
+  type: "Data"
+  top: "data"
+  top: "label"
+  include {
+    phase: TEST #说明该层只在TEST阶段使用
+  }
+  transform_param {
+    scale: 0.00390625
+  }
+  data_param {
+    source: "D:/DL/caffe-master/examples/deep_learning_localization/data/lmdb/test" #测试数据的路径
+    batch_size: 10
+	backend: LMDB
+  }
+}
+
+layer {
+  name: "fc1"
+  type: "InnerProduct"
+  bottom: "data"
+  top: "fc1"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 40
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "relu1"
+  type: "ReLU"
+  bottom: "fc1"
+  top: "fc1"
+}
+layer {
+  name: "fc2"
+  type: "InnerProduct"
+  bottom: "fc1"
+  top: "fc2"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  inner_product_param {
+    num_output: 2
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  name: "loss"
+  type: "SoftmaxWithLoss"
+  bottom: "fc2"
+  bottom: "label"
+  top: "loss"
+}
+layer {
+  name: "accuracy"
+  type: "Accuracy"
+  bottom: "fc2"
+  bottom: "label"
+  top: "accuracy"
+  include {
+    phase: TEST
+  }
+}
